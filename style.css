@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Monospace, serif;
+}
+.box{
+    height: 40vw;
+    width: 80vw;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: steelblue;
+    position: center;
+}
+.content{
+    height: 30vw;
+    width: 60vw;
+    background-color: azure;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.mesage{
+    width: 90%;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 70px;
+}
+.submt{
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 43%;
+    background-color: steelblue;
+    color: whitesmoke;
+}
+.textmes{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: steelblue;
+}

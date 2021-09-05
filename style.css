@@ -1,36 +1,45 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     background-color: gainsboro;
     display: flex;
     flex-wrap: wrap;
     font-family: Monospace, serif;
+    font-size: 50px;
+    text-align: center;
+    color: steelblue;
 }
-.box{
-    height: 40vw;
+
+.box {
+    min-height: 40vw;
     width: 80vw;
     margin-top: 7%;
     margin-bottom: 7%;
     margin-left: 15%;
     margin-right: 15%;
     background-color: steelblue;
-    position: center;
+    position: relative;
 }
-.content{
-    height: 30vw;
+
+.content {
+    min-height: 30vw;
     width: 60vw;
     background-color: azure;
     margin: auto;
     margin-top: 7%;
     margin-bottom: 7%;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
+    color: black;
 }
-.mesage{
+
+.mesage {
     width: 90%;
     height: 100px;
     margin-top: 40px;
@@ -38,18 +47,40 @@ h1{
     margin-right: 5%;
     font-size: 70px;
 }
-.submt{
+
+.addButton {
     height: 100px;
-    width: 200px;
+    width: 300px;
     font-size: 50px;
     margin-top: 60px;
-    margin-left: 43%;
+    margin-left: 3%;
     background-color: steelblue;
     color: whitesmoke;
 }
-.textmes{
+
+.no-mess-window {
+    left: calc(50% - 450px);
+    top: calc(50% - 250px);
+    background-color: rgba(11, 30, 150, 0.1);
+    width: 900px;
+    height: 500px;
+    position: absolute;
+}
+
+.tex-no-mess {
+    font-size: 130px;
+    padding-top: 90px;
+    color: darkred;
+}
+
+.textmes {
     font-size: 50px;
     text-align: center;
     margin-top: 30px;
     color: steelblue;
+}
+
+div {
+    background-color: azure;
+    font-size: 70px;
 }
